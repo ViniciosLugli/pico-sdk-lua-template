@@ -1,0 +1,6 @@
+# Build
+build/
+
+# Dev
+.clang-format
+.vscode/
