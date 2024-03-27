@@ -22,10 +22,14 @@ Before starting, ensure you have the following installed:
     export PICO_SDK_PATH=/<path-to>/pico-sdk
     ```
 
-2. **Clone the Template**: Clone or use the this template from github repository.
+2. **Clone the Template**: Clone or use the this template from github repository and update submodules.
 
     ```bash
     git clone git@github.com:ViniciosLugli/pico-sdk-template.git
+    ```
+
+    ```bash
+    git submodule update --init --recursive
     ```
 
 3. **Navigate to the Project Directory**: Change into the cloned project's directory:
